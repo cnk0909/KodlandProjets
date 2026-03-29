@@ -64,7 +64,7 @@ def form_create():
 
         db.session.add(card)
         db.session.commit()
-        
+
         return redirect('/')
     else:
         return render_template('create_card.html')
@@ -72,3 +72,4 @@ def form_create():
 
 if __name__ == "__main__":
     app.run(debug=True)
+#Merhabasadasd
